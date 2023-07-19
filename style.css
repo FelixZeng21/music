@@ -10,10 +10,14 @@ header {
     background-color: #333;
     color: white;
     padding: 10px;
+    font-family:italic;
 }
 
 h1 {
     text-align: center;
+}
+h2 {
+    font-family:italic;
 }
 
 nav {
@@ -39,4 +43,11 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+p {
+    border-style: solid;
+    padding: 30px;
+    font-family:italic;
+    border-radius: 20px;
 }

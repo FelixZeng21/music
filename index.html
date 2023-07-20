@@ -22,24 +22,56 @@
     <main>
         <section id="about">
             <h2 style="text-align: center">About Us</h2>
-            <p id="box" style="text-align: center">At Sound Scout, we are on a mission to connect music lovers with their perfect soundscape by providing personalized and insightful music recommendations. We strive to create a vibrant and inclusive platform that celebrates diversity, fosters artistic expression, and sparks joy through curated playlists, expert collections, and innovative algorithms. Our goal is to make music accessible to all, inspire and unite people through melodies, and redefine musical horizons. Join us as we embark on a never-ending quest to discover the perfect soundtrack for every moment, mood, and memory, creating a global community bound by the love of music.</p>
+            <p style="text-align: center">At Sound Scout, we are on a mission to connect music lovers with their perfect soundscape by providing personalized and insightful music recommendations. We strive to create a vibrant and inclusive platform that celebrates diversity, fosters artistic expression, and sparks joy through curated playlists, expert collections, and innovative algorithms. Our goal is to make music accessible to all, inspire and unite people through melodies, and redefine musical horizons. Join us as we embark on a never-ending quest to discover the perfect soundtrack for every moment, mood, and memory, creating a global community bound by the love of music.</p>
         </section>
-        <section id="sign up">
-            <h2 style="text-align: left">Sign Up/Log In</h2>
-            <div id="signupbox">
-                <form>
-                    <label for="name">Name</label>
-                    <input id="name" type="text">
-                    <br>
-                    <label for="password">Password</label>
-                    <input id="password" type="text">
-                    <br>
-                    <button id="submit">Submit</button>
-                </form>
-            </div>
-            <img src="soundscoutlogo.jpg">
-        </section>
+        <br>
     </main>
+    
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    /* Your CSS styles can go here */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form onsubmit="return false;">
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="Felix Zeng" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="Wiseewe73" required>
+      </div>
+      <button class="btn" onclick="login()">Login</button>
+    </form>
+  </div>
+
+  <script>
+    function login() {
+      const username = document.getElementById('Felix Zeng').value;
+      const password = document.getElementById('Wiseewe73').value;
+
+      // Simulating a simple authentication process (Replace this with a secure server-side authentication)
+      if (username === 'Felix Zeng' && password === 'Wiseewe73') {
+        // Redirect to another page after successful login
+        window.location.href = 'welcome.html';
+      } else {
+        alert('Invalid username or password. Please try again.');
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+</html>
     
 </body>
 </html>

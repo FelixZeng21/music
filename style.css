@@ -61,10 +61,6 @@ footer {
     font-family: italic;
     font-weight: lighter;
     border-radius: 20px;
-    width: 30%;
-    transform: translateX(300px);
-}
-
-img {
-    transform: translate(500px, -150px);
+    width: 15%;
+    transform: translateX(590px);
 }

@@ -1,0 +1,29 @@
+body {
+    background-color: #71a5c2;
+    background-image: linear-gradient(white, lightblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-family:italic;
+    text-align: center;
+
+}
+button {
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+ol {
+    border: solid 3px;
+    border-radius: 15px;
+    width: 600px;
+    
+}

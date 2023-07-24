@@ -52,15 +52,18 @@ footer {
     padding: 30px;
     font-family:italic;
     font-weight:bold, lighter;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 #signupbox {
     border-style: solid;
-    padding: 30px;
+    padding: 55px;
     font-family: italic;
     font-weight: lighter;
-    border-radius: 20px;
-    width: 15%;
-    transform: translateX(590px);
+    border-radius: 25px;
+    width: 55%;
+}
+
+img {
+    transform: translate(500px, -150px);
 }

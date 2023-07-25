@@ -14,59 +14,38 @@
     <h2>Welcome to Sound Scout!</h2>
     <p>Congratulations! You have successfully logged in.</p>
     <br> <hr>
-    <h3>
+    <h3 style="text-align:center">
         Select Genres
   </div>
-  <form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
     
-    <label for="music">Genres</label>
-    <select id="music" size="1">
-        <option value="Rap">Rap</option>
-        <option value="Country">Country</option>
-        <option value="Rock" >Rock</option>
-        <option value="select" selected>Select</option>
-        <option value="Pop">Pop</option>
-        <option value="R&B">R&B</option>
-        <option value="Hip Hop">Hip Hop</option>
-        <option value="K-Pop">K-Pop</option>
-        <option value="Metal">Metal</option>
-        <option value="EDM">EDM</option>
-        <option value="Drill">Drill</option>
-        <option value="Jazz">Jazz</option>
-        <option value="Latin"></option>
-
-
-    </select>
-    <select id="music" size="1">
-        <option value="Rap">Rap</option>
-        <option value="Country">Country</option>
-        <option value="Rock" >Rock</option>
-        <option value="select" selected>Select</option>
-        <option value="Pop">Pop</option>
-        <option value="R&B">R&B</option>
-        <option value="Hip Hop">Hip Hop</option>
-        <option value="K-Pop">K-Pop</option>
-        <option value="Metal">Metal</option>
-        <option value="EDM">EDM</option>
-        <option value="Drill">Drill</option>
-        <option value="Jazz">Jazz</option>
-        <option value="Latin"></option>
-
-
-    </select>
-    <br> <br>
-<button id="music">Get Music</button>
-<br>
-<ol>
     <br>
-    <li> DJ Khaled</li>
-    <br>
-    <li></li>
-    <br>
-    <li></li>
-    <br>
-</ol>
+    <div id="buttons" style="text-align: center">
+    <button id="btn1" onclick="giveMusic()">Hip Hop</button>
+    <button id="btn2" onclick="giveMusic2()">Pop</button>
+    <button id="btn3" onclick="giveMusic3()">Edm</button>
+    <button id="btn4" onclick="giveMusik()">Country</button>
+    <button id="btn5" onclick="giveMusik2()">Metal</button>
+    </div>
+   
 
-</form>
+    <div id="item-container">
+    <script src="hip.js"></script> 
+    <script src="pop.js"></script>
+    <script src="edm.js"></script>
+    <script src="country.js"></script>
+    <script src="metal.js"></script>
+    </div>
+    
+    
 </body>
 </html>

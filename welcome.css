@@ -15,15 +15,43 @@ h2 {
     text-align: center;
 
 }
-button {
-    height: 50px;
-    width: 100px;
-    background-color: aquamarine;
-    border-radius: 15px;
+#btn1 {
+    background-color: lightcoral;
+    border-radius: 30px;
+    height: 40px;
+    width: 80px;
+    margin: 15px;
 }
-ol {
-    border: solid 3px;
-    border-radius: 15px;
-    width: 600px;
+#btn2 {
+    background-color:lightgoldenrodyellow;
+    border-radius: 30px;
+    height: 40px;
+    width: 80px;
+    margin: 15px;
+}
+#btn3 {
+    background-color: lightgreen;
+    border-radius: 30px;
+    height: 40px;
+    width: 80px;
+    margin: 15px;
+}
+#btn4 {
+    background-color: lightslategray;
+    border-radius: 30px;
+    height: 40px;
+    width: 80px;
+    margin: 15px;
+}
+#btn5 {
+    background-color: lightgrey;
+    border-radius: 30px;
+    height: 40px;
+    width: 80px;
+    margin: 15px;
+}
+#item-container {
+    font-size: xx-small;
     
 }
+
